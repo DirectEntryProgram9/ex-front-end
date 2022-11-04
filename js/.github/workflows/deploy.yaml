@@ -1,0 +1,12 @@
+name: "CI/CD pipeline for lms Front-End"
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "Hello CI/CD!"
